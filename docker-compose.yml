@@ -8,6 +8,6 @@ services:
       - NODE_ENV=development
     volumes:
     - ./:/usr/src/app
-    command: sh -c "cd react-portfolio-site && npm start"
+    command: sh -c "cd react_portfolio && npm start"
     ports:
     - "3000:3000"
